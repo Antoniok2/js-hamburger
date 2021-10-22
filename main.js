@@ -6,7 +6,7 @@ const closeHamburger = document.querySelector(".close");
 hamburgerLogo.addEventListener('click',
 
     function () {
-        hambMenu.style.display = "block";
+        hambMenu.classList.add("active");
     }
 );
 
@@ -14,6 +14,6 @@ hamburgerLogo.addEventListener('click',
 closeHamburger.addEventListener('click',
 
     function () {
-        hambMenu.style.display = "none";
+        hambMenu.classList.remove("active");
     }
 );
