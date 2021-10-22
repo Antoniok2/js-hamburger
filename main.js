@@ -1,10 +1,8 @@
-const openHm = document.querySelector("hamburger-menu");
+const openHm = document.querySelector(".hamburger-menu");
 
-openHm.addEventListener('click'
+openHm.addEventListener('click',
 
     function() {
-        openHm.style.display = "block"
+        openHm.style.display = "block";
     }
-    
-
-)
+);
