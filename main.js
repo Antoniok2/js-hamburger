@@ -1,8 +1,10 @@
 const openHm = document.querySelector(".hamburger-menu");
+const hamburgerLogo = document.querySelector(".fa-bars");
 
-openHm.addEventListener('click',
 
-    function() {
+hamburgerLogo.addEventListener('click',
+
+    function () {
         openHm.style.display = "block";
     }
-);
+)
