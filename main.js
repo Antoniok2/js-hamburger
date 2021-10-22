@@ -1,0 +1,1 @@
+const openHm = document.getElementsByClassName("hamburger-menu");
